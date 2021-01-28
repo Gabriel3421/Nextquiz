@@ -38,6 +38,7 @@ export default function Home() {
     <QuizBackground backgroundImage={db.bg}>
       <Head>
         <title>{db.title}</title>
+        <meta property="og:image" content={db.bg} />
       </Head>
       <QuizContainer>
         <QuizLogo />
